@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">movisensXS Integration Sample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_your_special_test">movisensXS Integration Sample</string>
+
+</resources>
