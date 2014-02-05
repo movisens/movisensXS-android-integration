@@ -25,7 +25,10 @@ public class ControlActivity extends Activity {
 			sendBroadcast(new Intent("com.movisens.xs.android.core.intent.action.STOP_SAMPLING"));
 			break;
 		case R.id.sendBroadcast:
-			sendBroadcast(new Intent("com.yourApp.YourBroadcastName"));
+			String reason = "High Heart Rate: 160bpm";
+			Intent intent = new Intent("com.yourApp.YourBroadcastName");
+			intent.putExtra("value", reason);
+			sendBroadcast(intent);
 			break;
 		}
 	}

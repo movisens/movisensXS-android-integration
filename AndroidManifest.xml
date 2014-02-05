@@ -23,7 +23,7 @@
             android:name=".YourSpecialTestActivity"
             android:label="@string/title_activity_your_special_test" >
             <intent-filter>
-                <action android:name="com.yourApp.YourSpecialTestActivity" />
+                <action android:name="com.yourApp.TEST" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
